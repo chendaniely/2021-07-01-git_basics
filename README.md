@@ -1,4 +1,4 @@
-# git basics
+# 2021-07-01: Git Basics
 
 - `git init`: initialize git repository in current working directory
 - `git status`: gives you the status
@@ -21,8 +21,10 @@
 - use `.gitkeep` to "keep" an empty folder
 - use `.gitignore` to ignore files/patterns
 
-# remotes
+# REMOTES
 
 - `ssh-keygen`: to create ssh keys
 - `git remote add <URL>`: adds the url
 - `git push origin main`: push to the main branch to the origin remote
+- `git pull origin main`: pull the main branch from the origin remote
+
