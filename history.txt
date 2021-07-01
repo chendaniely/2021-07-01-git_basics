@@ -1,0 +1,184 @@
+   38  git --version
+   39  git config --global user.name "Daniel Chen"
+   40  git config --global user.email "chendaniely@gmail.com"
+   41  git config --global core.editor "nano -w"
+   42  explorer .
+   43  # open .
+   44  xdg-open .
+   45  pwd
+   46  mkdir git
+   47  cd git
+   48  mkdir 2021-07-01-git_basics
+   49  cd 2021-07-01-git_basics/
+   50  pwd
+   51  history
+   52  explorer .
+   53  pwd
+   54  git config
+   55  git init
+   56  git status
+   57  git checkout -b main
+   58  pwd
+   59  history
+   60  git status
+   61  nano README.md
+   62  git status
+   63  git add README.md
+   64  git status
+   65  git commit
+   66  git status
+   67  cd ..
+   68  git status
+   69  cd -
+   70  git status
+   71  nano README.md
+   72  git status
+   73  git add README.md
+   74  git status
+   75  git commit -m "talked about add and commit"
+   76  git status
+   77  history
+   78  nano README.md
+   79  git status
+   80  vim README.md
+   81  git config --list
+   82  git log
+   83  git config --list
+   84  git log
+   85  git config user.name "Leeroy Jenkins"
+   86  git config user.email "chicken@wow.com"
+   87  nano README.md
+   88  git status
+   89  git add README.md
+   90  git commit -m "git log with config changes"
+   91  git log
+   92  git config user.name "Daniel Chen"
+   93  git config user.email "chendaniely@gmail.com"
+   94  git log
+   95  cat README.md
+   96  git diff HEAD~2 README.md
+   97  git log
+   98  git log --oneline
+   99  git diff 20ec0fb README.md
+  100  nano README.md
+  101  git status
+  102  git diff README.md
+  103  git add README.md
+  104  git status
+  105  git diff
+  106  git diff --staged
+  107  git status
+  108  git commit -m "log, HEAD, diff HEAD and hash"
+  109  git status
+  110  nano README.md
+  111  git status
+  112  git diff
+  113  git status
+  114  git restore README.md
+  115  git status
+  116  cat README.md
+  117  nano README.md
+  118  git add README.md
+  119  git status
+  120  git diff --staged
+  121  git status
+  122  git restore --staged README.md
+  123  git status
+  124  git restore README.md
+  125  git status
+  126  rm README.md
+  127  git status
+  128  git add README.md
+  129  git status
+  130  git commit -m "delete README.md"
+  131  git status
+  132  ls
+  133  ls -alh
+  134  git log --oneline
+
+  138  git log --oneline
+  139  git checkout e79aebe README.md
+  140  ls
+  141  cat README.md
+  142  git status
+  143  git commit -m "undelete README.md"
+  144  git log --oneline
+  145  nano README.md
+  146  git status
+  147  git diff
+  148  git add README.md
+  149  git commit -m "checkout, undelete/restore file"
+  150  git status
+  151  git commit -m "something"
+  152  git status
+  153  history
+  154  ls
+  155  dir
+  156  ls
+  157  git status
+  158  mkdir analysis data
+  159  ls
+  160  git status
+  161  nano analysis/code.py
+  162  git status
+  163  git add analysis/
+  164  git status
+  165  git commit -m "add code in analysis folder"
+  166  git status
+  167  ls
+  168  touch data/.gitkeep
+  169  git status
+  170  git add data/
+  171  git status
+  172  git commit -m "keep the data folder"
+  173  touch data/my_data.csv
+  174  gits tatus
+  175  git status
+  176  nano .gitignore
+  177  git status
+  178  git add .gitignore
+  179  git commit -m "ignore data folder and other extensions"
+  180  ls
+  181  ls -a
+  182  nano README.md
+  183  git status
+  184  git add README.md
+  185  git commit -m "ignore file and .gitkeep"
+  186  cat README.md
+  187  ssh-keygen
+  188  ssh-keygen
+  189  ssh-keygen
+  190  cat /c/Users/Danie/.ssh/class.pub
+  191  histsory
+  192  history
+  193  git log --oneline
+  194  git remote add origin git@github.com:chendaniely/2021-07-01-git_basics.git
+  195  git remote -v
+  196  git push origin main
+  197  cat README.md
+  198  git pull origin main
+  199  cat README.md
+  200  git status
+  201  git pull origin main
+  202  nano README.md
+  203  git status
+  204  git add README.md
+  205  git commit -m "change title and talk about pull"
+  206  git status
+  207  git log --oneline
+  208  git push origin main
+  209  git pull origin main
+  210  code README.md
+  211  nano README.md
+  212  git status
+  213  git add README.md
+  214  git status
+  215  git commit -m "fix conflicts"
+  216  git status
+  217  git push origin main
+  218  git status
+  219  git add whiteboard.png
+  220  git commit -m "whiteboard"
+  221  git push origin main
+  222  code history.txt
+  223  history
