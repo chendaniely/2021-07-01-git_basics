@@ -21,7 +21,7 @@
 - use `.gitkeep` to "keep" an empty folder
 - use `.gitignore` to ignore files/patterns
 
-# REMOTES
+# Remotes
 
 - `ssh-keygen`: to create ssh keys
 - `git remote add <URL>`: adds the url
