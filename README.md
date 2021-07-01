@@ -16,3 +16,8 @@
 - `git checkout <HASH> <FILE>`: restore <FILE> to version in <HASH>`
     - if you run `git checkout <HASH>` without the <FILE>
     - You can fix this by running `git checkout main`
+
+- git ignores empty folders
+- use `.gitkeep` to "keep" an empty folder
+- use `.gitignore` to ignore files/patterns
+
